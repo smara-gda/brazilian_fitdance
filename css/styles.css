@@ -1,0 +1,29 @@
+*{  margin: 0px;
+  padding: 0px;
+/* box-sizing: border-box;*/
+  font-family: 'Crete Round', sans-serif;
+}
+
+
+body { 
+	background: url(../images/logo.png) no-repeat center center fixed;
+	background-color: #000000;
+}
+
+#construction {
+margin-top: 3px;
+    color: #6CF0B6;
+    text-align: center;
+    font-size: 47px;
+}
+
+.logo {
+  max-height: 5rem;
+  min-height: 2;
+  width: auto;
+  position: relative;
+  padding-left: 1em;
+  margin-top: 11em;
+  left: 18px;
+  top: -107px;
+}
