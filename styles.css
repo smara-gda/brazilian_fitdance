@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+#construction {
+  padding-top: 12em;
+  color: lightblue;
+  text-align: center;
+}
