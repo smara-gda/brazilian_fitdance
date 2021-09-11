@@ -9,7 +9,8 @@ body {
 }
 
 #construction {
-  padding-top: 12em;
+  margin-top: 12em;
   color: lightblue;
   text-align: center;
+  font-size: 42px;
 }
