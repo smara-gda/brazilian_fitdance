@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="decription" content="Brazilian Fit dance">
+<meta name="keywords" content="Dance, Fitdance, Brazilian, Funkmusic, Healthy, Movement">
+<meta name="author" content="Gordon Gravenbeek">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<link href="../css/stylessheet.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<div class="wrapper">
+<!--Logo on the left side of the header-->
+<header>
+<a href="../index.html"><img src="../images/icons/logo1.svg" alt="logo Brazilian Fitdance" width="80" height="80" class="logo" id="Image1"/></a>
+<!--Navigation menu-->
+<nav>
+<ul>
+<li><a href="../index.html">HOME</a></li>
+<li><a href="agenda.html">AGENDA</a></li>
+<li><a href="events.html">EVENTS</a></li>
+<li><a href="pricing.html">PRICING</a></li>
+<li><a href="schedule.html">SCHEDULE</a></li>
+<li class="dropdown"><a href="#">MEDIA <i class="fas fa-caret-down"></i></a>
+<ul class="dropdown-content">
+<li><a href="photos.html">PHOTOS</a></li>
+<li><a href="videos.html">VIDEOS</a></li>
+</ul>
+</li>
+<li class="dropdown"><a href="fitdance.html" class="highlight-active">FITDANCE <i class="fas fa-caret-down"></i></a> 
+<ul class="dropdown-content">
+<li><a href="about.html">ABOUT</a> </li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="register.html">REGISTER</a></li>
+<li><a href="teacher.html">THE TEACHER</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</header>
+<main>
+<img class="hero-image" src="../images/hero.png" alt="hero image Brazilian Fitdance">
+<section>
+<!--Information about register-->
+<h1>REGISTER</h1>
+<div class="introduction-paragraph">
+<p>Ready to dance your butt off? Fill in your data to attend a lesson</p>
+</div>
+</section>
+<hr>
+<article class="register-form">
+<!--Register form-->
+<h2>Personal data</h2>
+<form  method="post" action="https://formspree.io/f/mvolgovr">
+<label for="fname-register">First name</label><br>
+<input type="text" class="register-text-area" id="fname-register" name="register-fname" pattern="[A-zÀ-ž][A-zÀ-ž\s-]+" required="required"><br>
+<label for="lname-register">Last name</label><br>
+<input type="text" class="register-text-area" id="lname-register" name="register-lname" pattern="[A-zÀ-ž][A-zÀ-ž\s-]+" required="required"><br>
+<label for="bday-register">Birthday</label><br>
+<input type="date" class="register-text-area" id="bday-register" name="register-bday" required="required"><br>
+<label for="adress-register">Streetname &amp; number</label><br>
+<input type="text" class="register-text-area" id="adress-register" name="register-adress" pattern="[A-zÀ-ž][A-zÀ-ž\s-]+ 0-9] {10}" required="required"><br>
+<label for="pcode-register">Postal code</label><br>
+<input type="text" class="register-text-area" id="pcode-register" name="register-postal-code" pattern="[0-9]{4}[a-zA-Z]{2}" title="1234AB" required="required"><br>
+<label for="city-register">City</label><br>
+<input type="text" class="register-text-area" id="city-register" name="register-city" pattern="[A-zÀ-ž][A-zÀ-ž\s-]+" required="required"><br>
+<label for="pnum-register">Phonenumber</label><br>
+<input type="tel" class="register-text-area" id="pnum-register" name="register-phone" pattern="[0-9]{10}" required="required"><br>
+<label for="email-register">Emailadress</label><br>
+<input type="email" class="register-text-area" id="email-register" name="register-email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" title="example@myemail.com" required="required" ><br>
+<label for="package-register">Choose package</label><br>
+<select class="register-text-area" id="package-register" name="register-package">
+<option value="singleclass">Single class &euro;16,-</option>	
+<option value="60month">1 x per week &euro;60,-</option>
+<option value="120month">2 x per week &euro;120,-</option>
+</select><br><br>
+
+<!--CTA form buttons-->
+<div class="register-btn">
+<input name="send" type="submit" class="button-form" id="register-form-send" value="SEND">
+<input name="delete" id="register-form-reset" class="button-form" value="RESET" type="reset">
+</div>
+</form>
+</article>
+</main>
+<!--Footer navigation-->
+  <footer class="footer">
+  <div class="navigation-footer">
+  <ul>
+  <li><a href="../index.html">HOME</a></li>
+  <li><a href="agenda.html">AGENDA</a></li>
+  <li><a href="events.html">EVENTS</a></li>
+  <li><a href="pricing.html">PRICING</a></li>
+  <li><a href="schedule.html">SCHEDULE</a></li>
+  <li><a href="photos.html">PHOTOS</a></li>
+  <li><a href="videos.html">VIDEOS</a></li>
+  <li><a href="register.html" class="highlight-active">REGISTER</a></li>
+  <li><a href="contact.html">CONTACT</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  </ul>
+  </div>
+<!--Social media icons-->
+ <div class="social-icons">
+ <ul>
+ <li><a href="mailto:brazilianfitdanceinamsterdam@gmail.com"><img src="../images/icons/mail.svg" alt="Email logo"/></a></li>
+ <li><a href="https://api.whatsapp.com/send/?phone=31682935487&text&app_absent=0"><img src="../images/icons/whatsapp.svg" alt="Whatsapp logo"/></a></li>
+ <li><a href="https://www.instagram.com/fitdance_amsterdam/" target="_blank"><img src="../images/icons/instagram.svg" alt="Instagram logo"></a></li>
+ <li><a href="https://www.facebook.com/groups/423004131702199/?ref=share"><img src="../images/icons/facebook.svg" alt="Facebook logo"/></a></li>
+ </ul>
+ </div>
+ <hr>  
+<!--Privacy policy & Terms & conditions -->
+<div class="footer-information">&copy; Brazilian Fitdance | KVK: 82899150 | <a href="privacy-policy.html" class="privacy-policy">Privacy Policy</a> | <a href="terms-conditions.html" class="privacy-policy">Terms &amp; Conditions</a>
+</div>
+<!--Back to top arrow-->
+<img onClick="scrollToTop()" class="arrow-up" src="../images/icons/arrowUp.svg" height="30" width="40" alt="arrow up image"/>
+</footer>
+</div>
+<script src="../script/script.js"></script>
+</body>
+</html>
