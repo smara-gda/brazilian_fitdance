@@ -294,6 +294,7 @@ hr {
 .video-gallery {
     text-align: center;
     display: inline-block;
+    margin-bottom: 100px;
 }
 
 /*REGISTER PAGE*/
