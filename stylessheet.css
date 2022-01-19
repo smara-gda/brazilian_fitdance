@@ -1,0 +1,558 @@
+* {
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+	
+
+html {
+    font-size: 100%;
+    overflow-x: hidden;	
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: adelle, arial, sans-serif;
+    background-color: #DAEEE3;
+    color: #8C3683;
+}
+
+.wrapper {
+    margin: 0 auto;
+    overflow: auto;
+	position: relative;
+	min-height: 100vh;
+}
+
+main {
+	padding-bottom: 2.5rem;
+}
+
+/*MAIN Styling*/
+/*Header styling*/
+header {
+    height: auto;
+    text-align: left;
+/*    color: #8cceaa;*/
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #8c3784;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+/*Logo styling*/
+.logo {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dropdown {
+	margin: 0 auto;
+}
+
+/*Styling navigation bar*/
+nav {
+    padding-top: 0.5rem;
+    padding-left: 0;
+    padding-bottom: rem;
+    overflow: hidden;
+    float: right;
+    margin-top: 10px;
+    text-align: left;
+    padding-right: 2rem;
+    font-size: small;
+}
+
+nav ul {
+    float: right;
+	margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a  {
+    padding: 0.5rem 1rem;
+	display: block;
+    text-decoration: none;
+    color: #fff;
+	transition: .5;
+}
+
+nav ul li a:hover {
+	border-radius: 15px;
+    background-color: #8cceaa;
+}
+
+nav ul li a:active {
+	border-radius: 15px;
+    background-color: #8cceaa;
+}
+
+
+nav ul ul{
+position:absolute;
+top: 60px;
+display: none;
+}
+
+nav ul li:hover > ul{
+	display: block;
+	visibility: visible;
+}
+
+nav ul ul li {
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+.dropdown-content {
+	background-color: #8cceaa;
+	border-radius: 15px;
+	display: none;
+	margin-top:5px;
+    position: absolute;
+    width: inherit;
+}
+
+.dropdown-content a {
+  padding: 15 0 15 0px;
+  margin-top: 5px; 
+}
+
+.dropdown-content a:hover {
+  color: #8c3784;
+}
+
+.dropdown-content a:active {
+	color: #8c3784; 
+}
+
+
+/*Styling highlight for active page*/
+ .highlight-active {
+    border-radius: 15px;
+    background-color: #8cceaa;
+}
+
+/*Styling hero image*/
+.hero-image {
+    overflow: hidden;
+    width: 100%;
+}
+
+/*Styling H1 heading */
+h1 {
+    color: #8c3784;
+    font-weight: 700;
+    margin-left: 20px;
+    font-size: 28pt;
+}
+
+
+/*INDEX PAGE*/
+/*Styling text introduction Index page*/
+.introduction {
+    text-align: center;
+    color: #8c3784;
+}
+
+.index-heading {
+    text-align: center;
+}
+
+/*Styling bullet points & image card on Index page*/
+.bullit-points  {
+    padding-top: 50px;
+    color: #8c3784;
+    list-style-position: outside;
+    text-align: left;
+    float: none;
+    font-size: 25px;
+    width: 80%;
+    display: block;
+    margin-left: 70px;
+    margin-bottom: -50px;
+}
+
+.bullit-points ul {
+	list-style: none;
+	
+}
+
+.bullit-points ul li::before {
+	content: "\2022";
+	color: #D6DB79;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+/*Styling image card on Index page*/
+.card-home {
+    float: right;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    margin-top: -200px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+/*Styling for the map on the Schedule page*/
+.location-map   {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+/*Styling horizontal row*/
+hr {
+    border-color: #8CCEAA;
+    border-style: solid;
+    width: 100%;
+}
+
+/*PRICING PAGE*/
+/*Styling article on the Pricing page*/
+.pricing {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Styling image Single Class pricing*/
+.single {
+    float: left;
+    text-align: left;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -120px;
+}
+
+/*Styling image card pricing*/
+.card-pricing {
+    float: right;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: -220px;
+}
+
+/*EVENT PAGE*/
+/*Styling cards for the Event page*/
+.event-cards {
+    margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.events-info {
+    border-radius: 10px;
+    background-color: #FFF;
+    border-color: #8c3784;
+    border-style: solid;
+    width: 300px;
+    height: 350px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    display: inline-table;
+    margin-left: 7.5rem;
+    text-align: left;
+}
+
+/*Styling for the months in the event cards*/
+.events-month {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18pt;
+    margin-top: 20px;
+}
+
+/*Styling event cards information*/
+.dance-events {
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+/*PHOTO PAGE*/
+/*Styling images for the Photo page*/
+.image-gallery {
+    display: inline-block;
+    text-align: center;
+	margin-bottom: 150px;
+}
+
+/*VIDEO PAGE*/
+/*Styling videos*/
+.video-gallery {
+    text-align: center;
+    display: inline-block;
+}
+
+/*REGISTER PAGE*/
+/*Styling text Register page*/
+.register-form {
+    font-weight: bold;
+    font-size: 12pt;
+	 margin-left: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/*Styling text area for the Register page*/
+.register-text-area {
+    width: 25%;
+    border: 2pt solid #8c3783;
+    border-radius: 10px;
+    text-align: left;
+    display: block;
+}
+
+/*CONTACT PAGE*/
+/*Styling image Contact page*/
+.image-aside-contact {
+	float: right;
+    margin-right: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #daeee3;
+    margin-bottom: 30px;
+}
+
+/*Styling form Contact page*/
+.contact-form {
+    margin-left: 60px;
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    font-size: large;
+    margin-top: 100px;
+}
+
+/*ABOUT PAGE*/
+/*Styling image*/
+.image-aside-about {
+    float: right;
+    margin-right: 40px;
+    margin-top: -190px;
+    margin-bottom: 190px;
+    text-align: left;
+    display: block;
+}
+
+/*Privacy Policy/Terms and condition page*/
+/*Styling Privacy Policy + Terms and condition page*/
+.policies {
+    margin-left: 20px;
+}
+
+/*FOOTER*/
+/*Styling footer*/
+
+footer {
+	position: absolute;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #8c3784;
+    background-repeat: no-repeat;
+    clear: both;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    vertical-align: bottom;
+    font-size: small;
+}
+.footer ul li {
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    float: left;
+    padding-bottom: 15px;
+}
+.footer ul li a {
+    text-align: left;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    float: none;
+}
+
+/*Styling footer information texts*/
+ .footer-information {
+    color: #FFFFFF;
+	text-decoration: none;
+    padding-left: 0px;
+    margin-left: 55px;
+    display: inline;
+    text-align: left;
+    font-size: small;
+}
+
+footer .privacy-policy {
+   color: #fff;
+   text-decoration: none;
+}
+
+/*Styling footer navigation*/
+.navigation-footer :hover {
+    border-radius: 15px;
+    background-color: #8cceaa;
+}
+
+/*ARROW UP ICON*/
+/*Styling arrow up image*/
+.footer .arrow-up {
+    display: inline;
+    float: right;
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+/*SOCIAL MEDIA ICONS*/
+/*Styling social media icons*/
+.footer .social-icons     {
+    color: #8cceaa;
+    float: right;
+    padding-top: 0;
+    padding-left: auto;
+    padding-bottom: 0;
+    padding-right: 15px;
+    margin-right: 20px;
+}
+
+.footer .social-icons ul li {
+    margin-left: 20px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+/*CALL TO ACTION BUTTONS*/
+/*Styling CTA buttons*/
+.cta-btn {
+    color: #fff;
+    background-color: #8c3784;
+    width: 120px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 10px;/*    margin-left: 50px;*/
+}
+
+/*Styling buttons for the pages Register & Contact*/
+.button-form { 
+	background-color: #8c3784;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 120px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+/*Styling buttons for the Contact & Register pages*/
+.register-btn {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+	transition: box-shadow .5s;
+}
+
+.register-btn :hover{
+	font-size: 25px;
+	box-shadow: 0 0 11px rgba(33,33,33,2);
+
+}
+
+.contact-btn {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    display: inline-block;
+	transition: box-shadow .5s;
+}
+
+.contact-btn :hover{
+	font-size: 25px;
+	box-shadow: 0 0 11px rgba(33,33,33,2);
+}
+
+/*Margin adjustment CTA-buttons for the Index, Pricing, Schedule, Contact & Register pages*/
+.index-btn {
+    margin-top: 90px;
+    margin-left: 100px;
+    transition: box-shadow .5s;
+    margin-bottom: 150px;
+}
+
+.index-btn :hover{
+	font-size: 20px;
+	box-shadow: 0 0 11px rgba(33,33,33,2);
+}
+.pricing-btn {
+    margin-left: 15px;
+    margin-top: 90px;
+	transition: box-shadow;
+}
+
+.pricing-btn :hover{
+	font-size: 20px;
+	box-shadow: 0 0 11px rgba(33,33,33,2);
+}
+
+.schedule-btn {
+	margin-top: 50px;
+    margin-left: 10px;
+    display: block;
+	transition: box-shadow .5s;
+}
+
+.schedule-btn :hover{
+	font-size: 20px;
+	box-shadow: 0 0 11px rgba(33,33,33,2);
+}
+
+#register-form-send {
+    margin-right: 20px;
+}
+#contact-form-send{
+	margin-right: 20px;
+}
+
+/*ADJUSTMENTS*/
+
+/*Margin used for the pages Agenda & Schedule*/
+.margin {
+    margin-left: 20px;
+}
+
+
+/*Styling for the paragraph for the Agenda, Events, Pricing, Schedule, Photos, Videos, Register, Contact & About pages */
+.introduction-paragraph {
+    margin-left: 20px;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: -30px;
+}
+
+/*Styiling Index page for public directories*/
+.error {
+    text-align: center;
+    font-size: 50px;
+}
+.goback {
+    text-decoration: none;
+    margin-left: 20px;
+}
