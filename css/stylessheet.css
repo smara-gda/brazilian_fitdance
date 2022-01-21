@@ -201,13 +201,6 @@ h1 {
     text-align: center;
 }
 
-/*Styling for the map on the Schedule page*/
-.location-map   {
-    float: right;
-    margin-top: 20px;
-    margin-right: 40px;
-    margin-bottom: 30px;
-}
 
 /*Styling horizontal row*/
 hr {
@@ -216,31 +209,15 @@ hr {
     width: 100%;
 }
 
-/*PRICING PAGE*/
-/*Styling article on the Pricing page*/
-.pricing {
+
+/* AGENDA PAGE */
+/* Styling margin agenda information */
+.agenda {
+    margin-top:20px;
     margin-left: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom:100px;
 }
 
-/*Styling image Single Class pricing*/
-.single {
-    float: left;
-    text-align: left;
-    position: absolute;
-    margin-left: 150px;
-    margin-top: -120px;
-}
-
-/*Styling image card pricing*/
-.card-pricing {
-    float: right;
-    padding-bottom: 20px;
-    text-align: center;
-    margin-right: 80px;
-    margin-top: -260px;
-}
 
 /*EVENT PAGE*/
 /*Styling cards for the Event page*/
@@ -280,6 +257,49 @@ hr {
     padding-top: 40px;
     padding-left: 15px;
 }
+/*PRICING PAGE*/
+/*Styling article on the Pricing page*/
+.pricing {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Styling image Single Class pricing*/
+.single {
+    float: left;
+    text-align: left;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -120px;
+}
+
+/*Styling image card pricing*/
+.card-pricing {
+    float: right;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: -260px;
+}
+
+
+/* SCHEDULE PAGE
+Styling margin timetable */
+.timetable {
+    margin-top:40px;
+    margin-left: 20px;
+    margin-bottom:100px;
+}
+
+/*Styling for the map on the Schedule page*/
+.location-map   {
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
 
 /*PHOTO PAGE*/
 /*Styling images for the Photo page*/
@@ -345,7 +365,6 @@ hr {
     text-align: left;
     display: block;
 }
-
 
 /*Teacher page*/
 /*Styling image*/
@@ -543,14 +562,6 @@ footer .privacy-policy {
 }
 
 /*ADJUSTMENTS*/
-
-/*Margin used for the pages Agenda & Schedule*/
-.margin {
-    margin-top:20px;
-    margin-left: 20px;
-    margin-bottom:100px;
-}
-
 
 /*Styling for the paragraph for the Agenda, Events, Pricing, Schedule, Photos, Videos, Register, Contact & About pages */
 .introduction-paragraph {
