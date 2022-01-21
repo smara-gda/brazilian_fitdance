@@ -251,7 +251,8 @@ hr {
 /*Styling cards for the Event page*/
 .event-cards {
     margin-top: 30px;
-	margin-bottom: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
 }
 
 .events-info {
@@ -280,7 +281,7 @@ hr {
 /*Styling event cards information*/
 .dance-events {
     padding-top: 40px;
-    padding-left: 150px;
+    padding-left: 15px;
 }
 
 /*PHOTO PAGE*/
