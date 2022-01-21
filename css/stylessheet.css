@@ -6,11 +6,13 @@ text-decoration: none;
 	
 
 html {
+    height: 100%;
     font-size: 100%;
     overflow-x: hidden;	
 }
 
 body {
+    height: 100%;
     padding: 0px;
     margin: 0px;
     font-family: adelle, arial, sans-serif;
@@ -21,8 +23,8 @@ body {
 .wrapper {
     margin: 0 auto;
     overflow: auto;
-	position: relative;
-	min-height: 100vh;
+    position: relative;
+    min-height: 100%;
 }
 
 main {
