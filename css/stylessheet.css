@@ -254,7 +254,7 @@ hr {
     margin-bottom: 100px;
     column-count: 3;
     column-gap: 10px;
-    text-align: center;
+/*     text-align: center; */
 }
 
 .events-info {
