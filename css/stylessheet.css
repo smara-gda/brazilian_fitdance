@@ -266,7 +266,7 @@ hr {
     margin-right: auto;
     margin-bottom: 2rem;
     display: inline-table;
-/*     margin-left: 7.5rem; */
+    padding 0 auto;
     text-align: left;
 }
 
