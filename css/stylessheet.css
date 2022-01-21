@@ -210,6 +210,7 @@ h1 {
 /*Styling for the map on the Schedule page*/
 .location-map   {
     float: right;
+    margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
 }
@@ -541,6 +542,7 @@ footer .privacy-policy {
 
 /*Margin used for the pages Agenda & Schedule*/
 .margin {
+    margin-top:20px;
     margin-left: 20px;
     margin-bottom:100px;
 }
