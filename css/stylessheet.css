@@ -160,12 +160,6 @@ h1 {
 
 
 /*INDEX PAGE*/
-/*Styling text introduction Index page*/
-.introduction {
-    text-align: center;
-    color: #8c3784;
-}
-
 .index-heading {
     text-align: center;
 }
@@ -211,7 +205,7 @@ h1 {
 .location-map   {
     float: right;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-bottom: 30px;
 }
 
@@ -267,7 +261,7 @@ hr {
     margin-right: auto;
     margin-bottom: 2rem;
     display: inline-table;
-/*     padding 0 150px; */
+    padding 0 150px;
     text-align: left;
     column-count: 3;
     column-gap: 40px; 
@@ -292,7 +286,7 @@ hr {
 .image-gallery {
     display: inline-block;
     text-align: center;
-	margin-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 /*VIDEO PAGE*/
@@ -303,29 +297,19 @@ hr {
     margin-bottom: 100px;
 }
 
-/*REGISTER PAGE*/
-/*Styling text Register page*/
-.register-form {
-    font-weight: bold;
-    font-size: 12pt;
-	 margin-left: 20px;
-    display: block;
-    margin-bottom: 20px;
-}
 
-/*Styling text area for the Register page*/
-.register-text-area {
-    width: 25%;
-    border: 2pt solid #8c3783;
-    border-radius: 10px;
-    text-align: left;
-    display: block;
+/* ABOUT PAGE */
+/*Styling text introduction Index page*/
+.introduction {
+    margin-top: 50px;
+    text-align: center;
+    color: #8c3784;
 }
 
 /*CONTACT PAGE*/
 /*Styling image Contact page*/
 .image-aside-contact {
-	float: right;
+   float: right;
     margin-right: 50px;
     border-style: solid;
     border-radius: 20px;
@@ -343,7 +327,27 @@ hr {
     margin-top: 100px;
 }
 
-/*ABOUT PAGE*/
+/*REGISTER PAGE*/
+/*Styling text Register page*/
+.register-form {
+    font-weight: bold;
+    font-size: 12pt;
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/*Styling text area for the Register page*/
+.register-text-area {
+    width: 25%;
+    border: 2pt solid #8c3783;
+    border-radius: 10px;
+    text-align: left;
+    display: block;
+}
+
+
+/*Teacher page*/
 /*Styling image*/
 .image-aside-about {
     float: right;
