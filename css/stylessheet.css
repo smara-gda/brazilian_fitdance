@@ -266,7 +266,7 @@ hr {
     margin-right: auto;
     margin-bottom: 2rem;
     display: inline-table;
-    padding 0 150px;
+/*     padding 0 150px; */
     text-align: left;
     column-count: 3;
     column-gap: 40px; 
