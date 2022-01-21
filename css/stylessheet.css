@@ -269,7 +269,7 @@ hr {
     padding 0 15px;
     text-align: left;
     column-count: 3;
-    column-gap: 5px; 
+    column-gap: 40px; 
 }
 
 /*Styling for the months in the event cards*/
