@@ -491,7 +491,7 @@ footer .privacy-policy {
 /*Margin adjustment CTA-buttons for the Index, Pricing, Schedule, Contact & Register pages*/
 .index-btn {
     margin-top: 90px;
-    margin-left: 300px;
+    margin-left: 330px;
     transition: box-shadow .5s;
     margin-bottom: 150px;
 }
