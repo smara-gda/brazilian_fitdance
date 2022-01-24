@@ -502,7 +502,7 @@ footer .privacy-policy {
 
 /*Styling buttons for the Contact & Register pages*/
 .register-btn {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-top: 10px;
     display: inline-block;
 	transition: box-shadow .5s;
