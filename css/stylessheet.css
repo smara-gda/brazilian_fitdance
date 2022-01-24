@@ -224,6 +224,7 @@ hr {
     margin-top: 30px;
     margin-bottom: 100px;
     text-align: center;
+    
 }
 
 .events-info {
@@ -237,7 +238,6 @@ hr {
     margin-right: auto;
     margin-bottom: 2rem;
     display: inline-table;
-    padding 0 150px;
     text-align: left;
     column-count: 3;
     column-gap: 40px; 
@@ -308,14 +308,23 @@ Styling margin timetable */
     margin-bottom: 150px;
 }
 
-/*VIDEO PAGE*/
-/*Styling videos*/
-.video-gallery {
+/*MEDIA PAGE*/
+/*Styling media*/
+.media-gallery {
     text-align: center;
-    display: inline-block;
+    display: block;
+    padding: 15px;
     margin-bottom: 100px;
 }
 
+.media-gallery ul li {
+    display: inline;
+}
+
+.media-gallery ul li :hover {
+	border-radius: 15px;
+    background-color: #8cceaa;
+}
 
 /* ABOUT PAGE */
 /*Styling text introduction Index page*/
@@ -390,8 +399,8 @@ footer {
 	position: absolute;
 }
 .footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #8c3784;
     background-repeat: no-repeat;
     clear: both;
@@ -405,7 +414,7 @@ footer {
     display: inline-block;
     text-align: left;
     text-decoration: none;
-    float: left;
+    /* float: left; */
     padding-bottom: 15px;
 }
 .footer ul li a {
@@ -432,11 +441,11 @@ footer .privacy-policy {
    text-decoration: none;
 }
 
-/*Styling footer navigation*/
+/* Styling footer navigation
 .navigation-footer :hover {
     border-radius: 15px;
     background-color: #8cceaa;
-}
+} */
 
 /*ARROW UP ICON*/
 /*Styling arrow up image*/
@@ -459,7 +468,7 @@ footer .privacy-policy {
 
 .footer .social-icons ul li {
     margin-left: 20px;
-    float: left;
+    /* float: left; */
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -563,7 +572,7 @@ footer .privacy-policy {
 
 /*ADJUSTMENTS*/
 
-/*Styling for the paragraph for the Agenda, Events, Pricing, Schedule, Photos, Videos, Register, Contact & About pages */
+/*Styling for the paragraph for the Agenda, Events, Pricing, Schedule, Media, Register, Contact & About pages */
 .introduction-paragraph {
     margin-left: 20px;
     display: inline-block;
