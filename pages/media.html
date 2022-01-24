@@ -8,17 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="../images/icons/favicon.ico" type="image/x-icon">
 <link rel="icon" href="../images/icons/favicon.ico" type="image/x-icon">
-<title>Contact</title>
+<title>Media</title>
 <link href="../css/stylessheet.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-<script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
-<script src="../jQueryAssets/jquery-ui-effects.custom.min.js"></script>
-<script>
-function MM_DW_effectShake(obj,method,effect,direction,distance,times,speed)
-{
-    obj[method](effect, {direction:direction,distance:distance,times:times}, speed);
-}
-</script>
 </head>
 <body>
 <div class="wrapper">
@@ -33,8 +25,8 @@ function MM_DW_effectShake(obj,method,effect,direction,distance,times,speed)
 <li><a href="events.html">EVENTS</a></li>
 <li><a href="pricing.html">PRICING</a></li>
 <li><a href="schedule.html">SCHEDULE</a></li>
-<li><a href="media.html">MEDIA</a></li>
-<li class="dropdown"><a href="#" class="highlight-active">FITDANCE <i class="fas fa-caret-down"></i></a> 
+<li><a href="media.html" class="highlight-active">MEDIA</a></li>
+<li class="dropdown"><a href="#">FITDANCE <i class="fas fa-caret-down"></i></a> 
 <ul class="dropdown-content">
 <li><a href="about.html">ABOUT</a></li>
 <li><a href="contact.html">CONTACT</a></li>
@@ -46,42 +38,23 @@ function MM_DW_effectShake(obj,method,effect,direction,distance,times,speed)
 </nav>
 </header>
 <main>
-<img src="../images/hero.png" alt="hero image Brazilian Fitdance" class="hero-image">
-<!--Information about contactform-->
+<img class="hero-image" src="../images/hero.png" alt="hero image Brazilian Fitdance">
 <section>
+<!--Information text about video-->
 <div class="introduction-paragraph">
-<h1>CONTACT</h1>
-<p>Are you ready to attend a class but still have some questions?<br>
-Feel free to contact and ask whatever you want!<br>
-Fill in the contact form and we will contact you as soon as possible.<br>
-</p>
+<h1>MEDIA</h1>
+<p>Check out our social media channels for the latest information, photos and videos of the dance classes</p>
 </div>
 </section>
 <hr>
-<!--Aside image-->
-<aside class="image-aside-contact">
-<img src="../images/card-contact.png" alt="image-contact-page" width="650" height="650" onload="MM_DW_effectShake($(this),'effect','shake','left',20,100,200000)"/>
-</aside>
-<div class="contact-form">
-<!--Contact form-->
-<form method="post" action="https://formspree.io/f/mvolgovr">
-<label for="fname-contact">Name</label><br>
-<input type="text" class="register-text-area" id="fname-contact" name="contact-form-name" pattern="[A-zÀ-ž][A-zÀ-ž\s-]+" required="required"><br>
-<label for="phone-contact">Phonenumber</label><br>
-<input type="tel" class="register-text-area" id="phone-contact" name="contact-form-phone" pattern="[0-9]{10}" required="required"><br>
-<label for="email-contact">Email</label><br>
-<input type="email" class="register-text-area" id="email-contact" name="contact-form-email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" required="required"><br>
-<label for="mess-contact">Message</label><br>
-<textarea class="register-text-area" style="resize: none" cols="30" rows="6" id="mess-contact" name="contact-form-mess" required="required"  placeholder="Type your text here..."></textarea><br><br>
-<!--CTA form buttons-->
-<div class="contact-btn">
-<input name="contact-form-send" id="contact-form-send" class="button-form" value="SEND" type="submit">
-<input name="contact-form-delete" id="contact-form-delete" class="button-form" value="RESET" type="reset">
+<div class="media-gallery">
+<ul>
+<li><a href="https://www.instagram.com/fitdance_amsterdam/"><img src="../images/instagram-media.png" alt="Instagram fitdance_amsterdam" width="35%"></a></li>
+<li><a href="https://www.facebook.com/groups/423004131702199/?ref=share"><img src="../images/facebook-media.png" alt="Facebook fitdance_amsterdam" width="35%"></a></li>
+</ul>
 </div>
-</form>
-</div>
-</main>	
-   
+</main>
+ 
 <!--Footer navigation-->
   <footer class="footer">
 <!--Privacy policy & Terms & conditions -->
