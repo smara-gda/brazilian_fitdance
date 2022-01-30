@@ -1,61 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="decription" content="Brazilian Fit dance">
-<meta name="keywords" content="Dance, Fitdance, Brazilian, Funkmusic, Healthy, Movement">
-<meta name="author" content="Gordon Gravenbeek">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fitdance</title>
-<link href="css/stylessheet.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
-<script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
-<script>
-function MM_DW_effectPuff(obj,method,effect,percent,speed)
-{
-    obj[method](effect, { percent:percent}, speed);
-}
-function MM_goToURL() { //v3.0
-  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
-  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
-}
-</script>
-</head>
-<body>
-<div class="wrapper">
-<!--Logo on the left side of the header-->
-<div class="dropdown">
-<header>
-<a href="index.html"><img src="images/icons/logo1.svg" alt="logo Brazilian Fitdance" width="80" height="80" class="logo"/></a>
-<!--Navigation menu-->
-<nav>
-<ul>
-<li><a href="index.html" class="highlight-active">HOME</a></li>
-<li><a href="pages/agenda.html">AGENDA</a></li>
-<!-- <li><a href="pages/events.html">EVENTS</a></li> -->
-<li><a href="pages/pricing.html">PRICING</a></li>
-<li><a href="pages/schedule.html">SCHEDULE</a></li>
-<li><a href="pages/media.html">MEDIA</a></li>
-<li class="dropdown"><a href="#">FITDANCE <i class="fas fa-caret-down"></i></a> 
-<ul class="dropdown-content">
-<li><a href="pages/about.html">ABOUT</a></li>
-<li><a href="pages/contact.html">CONTACT</a></li>
-<li><a href="pages/register.html">REGISTER</a></li>
-<li><a href="pages/teacher.html">THE TEACHER</a></li>
-</ul>
-</li>
-</ul>
-</nav>
-</header>
-</div>
-<main>
-<!--Image slide-->
-<img src="images/hero.png" alt="hero image Brazilian Fitdance" class="hero-image" id="Image1" onload="MM_DW_effectPuff($(this),'toggle','puff',300,4000);MM_DW_effectPuff($(this),'show','puff',300,2000)">
-<!--About Fitdance introduction-->
-<section>
-<h1 class="index-heading">Burn calories whilst moving your body to funk music!</h1>
-<!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="decription" content="Brazilian Fit dance" />
+    <meta
+      name="keywords"
+      content="Dance, Fitdance, Brazilian, Funkmusic, Healthy, Movement"
+    />
+    <meta name="author" content="Gordon Gravenbeek" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitdance</title>
+    <link href="css/stylessheet.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+    <script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+    <script>
+      function MM_DW_effectPuff(obj, method, effect, percent, speed) {
+        obj[method](effect, { percent: percent }, speed);
+      }
+      function MM_goToURL() {
+        //v3.0
+        var i,
+          args = MM_goToURL.arguments;
+        document.MM_returnValue = false;
+        for (i = 0; i < args.length - 1; i += 2)
+          eval(args[i] + ".location='" + args[i + 1] + "'");
+      }
+    </script>
+    <script src="./script/custom-nav.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--Logo on the left side of the header-->
+      <div class="dropdown">
+        <header id="js-attach-nav">
+          <!--Navigation menu-->
+          <nav>
+            <ul>
+              <li><a href="index.html" class="highlight-active">HOME</a></li>
+              <li><a href="pages/agenda.html">AGENDA</a></li>
+              <!-- <li><a href="pages/events.html">EVENTS</a></li> -->
+              <li><a href="pages/pricing.html">PRICING</a></li>
+              <li><a href="pages/schedule.html">SCHEDULE</a></li>
+              <li><a href="pages/media.html">MEDIA</a></li>
+              <li class="dropdown">
+                <a href="#">FITDANCE <i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown-content">
+                  <li><a href="pages/about.html">ABOUT</a></li>
+                  <li><a href="pages/contact.html">CONTACT</a></li>
+                  <li><a href="pages/register.html">REGISTER</a></li>
+                  <li><a href="pages/teacher.html">THE TEACHER</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <main>
+        <!--Image slide-->
+        <img
+          src="images/hero.png"
+          alt="hero image Brazilian Fitdance"
+          class="hero-image"
+          id="Image1"
+          onload="MM_DW_effectPuff($(this),'toggle','puff',300,4000);MM_DW_effectPuff($(this),'show','puff',300,2000)"
+        />
+        <!--About Fitdance introduction-->
+        <section>
+          <h1 class="index-heading">
+            Burn calories whilst moving your body to funk music!
+          </h1>
+          <!--
 <div class="introduction">
 <p>Brazilian FitDance is a conditioning training where every week new movements to one.<br>
 Brazilian funk song is played on repeat for one and a half hour with one break in between.</p>
@@ -63,50 +81,100 @@ Brazilian funk song is played on repeat for one and a half hour with one break i
 It’s a fast paced aerobics class which include but are not limited to movements such as twerking, squats, kicks, jumps, running in place and moving planks.</p>
 </div>
 -->
-</section>
-<!--Bullit points-->
-<div class="bullit-points">
-<ul> 
-<li>Entertaining</li>
-<li>Suitable for everyone</li>
-<li>Increase your stamina</li>
-<li>Perfect workout</li>
-<li>Burning calories</li>
-<li>Working out with music</li>
-</ul>
-</div>
-<!--Group image dance class-->
-<aside class="card-home">
-<video width="450" height="250" autoplay controls muted>
-<source src="videos/intro-video.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-</aside>
-<!--Call to action buttons-->
-<div class="index-btn">
-<input name="schedule-btn" type="button" class="cta-btn" onClick="MM_goToURL('parent','pages/schedule.html');return document.MM_returnValue" value="SCHEDULE">
-<input name="pricing-btn" type="button" class="cta-btn" id="pricing-btn-index" onClick="MM_goToURL('parent','pages/pricing.html');return document.MM_returnValue" value="PRICING">
-</div>
-</main>
+        </section>
+        <!--Bullit points-->
+        <div class="bullit-points">
+          <ul>
+            <li>Entertaining</li>
+            <li>Suitable for everyone</li>
+            <li>Increase your stamina</li>
+            <li>Perfect workout</li>
+            <li>Burning calories</li>
+            <li>Working out with music</li>
+          </ul>
+        </div>
+        <!--Group image dance class-->
+        <aside class="card-home">
+          <video width="450" height="250" autoplay controls muted>
+            <source src="videos/intro-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </aside>
+        <!--Call to action buttons-->
+        <div class="index-btn">
+          <input
+            name="schedule-btn"
+            type="button"
+            class="cta-btn"
+            onClick="MM_goToURL('parent','pages/schedule.html');return document.MM_returnValue"
+            value="SCHEDULE"
+          />
+          <input
+            name="pricing-btn"
+            type="button"
+            class="cta-btn"
+            id="pricing-btn-index"
+            onClick="MM_goToURL('parent','pages/pricing.html');return document.MM_returnValue"
+            value="PRICING"
+          />
+        </div>
+      </main>
 
-<!--Footer navigation-->
-  <footer class="footer">
-<!--Privacy policy & Terms & conditions -->
-<div class="footer-information">&copy; Brazilian Fitdance | KVK: 82899150 | <a href="pages/privacy-policy.html" class="privacy-policy">Privacy Policy</a> | <a href="pages/terms-conditions.html" class="privacy-policy">Terms &amp; Conditions</a>
-</div>
+      <!--Footer navigation-->
+      <footer class="footer">
+        <!--Privacy policy & Terms & conditions -->
+        <div class="footer-information">
+          &copy; Brazilian Fitdance | KVK: 82899150 |
+          <a href="pages/privacy-policy.html" class="privacy-policy"
+            >Privacy Policy</a
+          >
+          |
+          <a href="pages/terms-conditions.html" class="privacy-policy"
+            >Terms &amp; Conditions</a
+          >
+        </div>
 
-<!--Social media icons-->
- <div class="social-icons">
- <ul>
- <li><a href="mailto:brazilianfitdanceinamsterdam@gmail.com"><img src="images/icons/mail.svg" alt="Email logo"/></a></li>
- <li><a href="https://api.whatsapp.com/send/?phone=31682935487&text&app_absent=0"><img src="images/icons/whatsapp.svg" alt="Whatsapp logo"/></a></li>
- <li><a href="https://www.instagram.com/fitdance_amsterdam/" target="_blank"><img src="images/icons/instagram.svg" alt="Instagram logo"></a></li>
- <li><a href="https://www.facebook.com/groups/423004131702199/?ref=share"><img src="images/icons/facebook.svg" alt="Facebook logo"/></a></li>
- <li><img onClick="scrollToTop()" class="arrow-up" src="images/icons/arrowUp.svg" height="30" width="40" alt="arrow up image"/></li>
- </ul>
- </div>
-</footer>
-</div>
-<script src="script/script.js"></script>
-</body>
+        <!--Social media icons-->
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="mailto:brazilianfitdanceinamsterdam@gmail.com"
+                ><img src="images/icons/mail.svg" alt="Email logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send/?phone=31682935487&text&app_absent=0"
+                ><img src="images/icons/whatsapp.svg" alt="Whatsapp logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/fitdance_amsterdam/"
+                target="_blank"
+                ><img src="images/icons/instagram.svg" alt="Instagram logo"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/groups/423004131702199/?ref=share"
+                ><img src="images/icons/facebook.svg" alt="Facebook logo"
+              /></a>
+            </li>
+            <li>
+              <img
+                onClick="scrollToTop()"
+                class="arrow-up"
+                src="images/icons/arrowUp.svg"
+                height="30"
+                width="40"
+                alt="arrow up image"
+              />
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="script/script.js"></script>
+  </body>
 </html>
