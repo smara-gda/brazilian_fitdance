@@ -15,12 +15,13 @@
       type="image/x-icon"
     />
     <link rel="icon" href="../images/icons/favicon.ico" type="image/x-icon" />
-    <title>Events</title>
+    <title>Agenda</title>
     <link href="../css/stylessheet.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <script src="../script/data.js" type="text/javascript"></script>
     <script src="../script/custom-nav.js" type="text/javascript"></script>
   </head>
   <body>
@@ -28,25 +29,7 @@
       <!--Logo on the left side of the header-->
       <header id="js-attach-nav">
         <!--Navigation menu-->
-        <nav>
-          <ul>
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="agenda.html">AGENDA</a></li>
-            <!-- <li><a href="events.html" class="highlight-active">EVENTS</a></li> -->
-            <li><a href="pricing.html">PRICING</a></li>
-            <li><a href="schedule.html">SCHEDULE</a></li>
-            <li><a href="media.html">MEDIA</a></li>
-            <li class="dropdown">
-              <a href="#">FITDANCE <i class="fas fa-caret-down"></i></a>
-              <ul class="dropdown-content">
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="register.html">REGISTER</a></li>
-                <li><a href="about.html">THE TEACHER</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+        <nav id="js-attach-nav-items"></nav>
       </header>
       <main>
         <img
@@ -55,50 +38,44 @@
           alt="hero image Brazilian Fitdance"
         />
         <section>
-          <!--Introduction about upcoming events-->
+          <!--Holidays information -->
           <div class="introduction-paragraph">
-            <h1>EVENTS</h1>
-            <p>
-              Take a look at the upcoming special dance events at Brazilian
-              Fitdance Amsterdam.
-            </p>
+            <h1>AGENDA</h1>
+            <p>Season 2022 January 1st till December 31st</p>
           </div>
         </section>
         <hr />
-        <!--Events cards-->
-        <div class="event-cards">
-          <!--Information event card #1-->
-          <div class="events-info">
-            <div class="events-month"><strong>January</strong></div>
-            <p class="dance-events">
-              <strong>Tuesday 4th:</strong>&nbsp;New year resolution dance<br /><br />
-              <strong>Wednesday 12th:</strong>&nbsp;Special guest from Brazil<br /><br />
-              <strong>Wedneday 26th:</strong>&nbsp;End of the month dancebattle
-            </p>
-          </div>
-          <!--Information event card #2-->
-          <div class="events-info">
-            <div class="events-month"><strong>February</strong></div>
-            <p class="dance-events">
-              <strong>Tuesday 1st:</strong>&nbsp;First of the month burning
-              workout<br /><br />
-              <strong>Wednesday 9th:</strong>&nbsp;Pre Valentines day workout<br /><br />
-              <strong>Wedneday 23rd:</strong>&nbsp;End of the month dancebattle
-            </p>
-          </div>
-          <!--Information event card #3-->
-          <div class="events-info">
-            <div class="events-month"><strong>March</strong></div>
-            <p class="dance-events">
-              <strong>Tuesday 1st:</strong>&nbsp;First of the month burning
-              workout<br /><br />
-              <strong>Wednesday 9th:</strong>&nbsp;Spring time dance!<br /><br />
-              <strong>Wedneday 30th:</strong>&nbsp;End of the month dancebattle
-            </p>
-          </div>
-        </div>
+        <article class="agenda">
+          <h2><strong>Holidays</strong></h2>
+          <p>
+            <strong>Spring break</strong><br />
+            February 19th till 22nd
+          </p>
+          <p>
+            <strong>Kingsday</strong><br />
+            April 27th
+          </p>
+          <p>
+            <strong>May holiday</strong><br />
+            April 30th till May 8th
+          </p>
+          <p>
+            <strong>Summer holiday</strong><br />
+            July 20th till August 3rd
+          </p>
+          <p>
+            <strong>Christmas holiday</strong><br />
+            December 20th till January 6th 2023
+          </p>
+          <br />
+          <p>
+            <strong
+              >*During the named holidays above there are no
+              danceclasses</strong
+            >
+          </p>
+        </article>
       </main>
-
       <!--Footer navigation-->
       <footer class="footer">
         <!--Privacy policy & Terms & conditions -->

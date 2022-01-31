@@ -15,7 +15,7 @@
       type="image/x-icon"
     />
     <link rel="icon" href="../images/icons/favicon.ico" type="image/x-icon" />
-    <title>Media</title>
+    <title>Events</title>
     <link href="../css/stylessheet.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
@@ -28,25 +28,7 @@
       <!--Logo on the left side of the header-->
       <header id="js-attach-nav">
         <!--Navigation menu-->
-        <nav>
-          <ul>
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="agenda.html">AGENDA</a></li>
-            <!-- <li><a href="events.html">EVENTS</a></li> -->
-            <li><a href="pricing.html">PRICING</a></li>
-            <li><a href="schedule.html">SCHEDULE</a></li>
-            <li><a href="media.html" class="highlight-active">MEDIA</a></li>
-            <li class="dropdown">
-              <a href="#">FITDANCE <i class="fas fa-caret-down"></i></a>
-              <ul class="dropdown-content">
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="register.html">REGISTER</a></li>
-                <li><a href="about.html">THE TEACHER</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+        <nav id="js-attach-nav-items"></nav>
       </header>
       <main>
         <img
@@ -55,36 +37,47 @@
           alt="hero image Brazilian Fitdance"
         />
         <section>
-          <!--Information text about video-->
+          <!--Introduction about upcoming events-->
           <div class="introduction-paragraph">
-            <h1>MEDIA</h1>
+            <h1>EVENTS</h1>
             <p>
-              Check out our social media channels for the latest information,
-              photos and videos of the dance classes
+              Take a look at the upcoming special dance events at Brazilian
+              Fitdance Amsterdam.
             </p>
           </div>
         </section>
         <hr />
-        <div class="media-gallery">
-          <ul>
-            <li>
-              <a href="https://www.instagram.com/fitdance_amsterdam/"
-                ><img
-                  src="../images/instagram-media.png"
-                  alt="Instagram fitdance_amsterdam"
-                  width="35%"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/groups/423004131702199/?ref=share"
-                ><img
-                  src="../images/facebook-media.png"
-                  alt="Facebook fitdance_amsterdam"
-                  width="35%"
-              /></a>
-            </li>
-          </ul>
+        <!--Events cards-->
+        <div class="event-cards">
+          <!--Information event card #1-->
+          <div class="events-info">
+            <div class="events-month"><strong>January</strong></div>
+            <p class="dance-events">
+              <strong>Tuesday 4th:</strong>&nbsp;New year resolution dance<br /><br />
+              <strong>Wednesday 12th:</strong>&nbsp;Special guest from Brazil<br /><br />
+              <strong>Wedneday 26th:</strong>&nbsp;End of the month dancebattle
+            </p>
+          </div>
+          <!--Information event card #2-->
+          <div class="events-info">
+            <div class="events-month"><strong>February</strong></div>
+            <p class="dance-events">
+              <strong>Tuesday 1st:</strong>&nbsp;First of the month burning
+              workout<br /><br />
+              <strong>Wednesday 9th:</strong>&nbsp;Pre Valentines day workout<br /><br />
+              <strong>Wedneday 23rd:</strong>&nbsp;End of the month dancebattle
+            </p>
+          </div>
+          <!--Information event card #3-->
+          <div class="events-info">
+            <div class="events-month"><strong>March</strong></div>
+            <p class="dance-events">
+              <strong>Tuesday 1st:</strong>&nbsp;First of the month burning
+              workout<br /><br />
+              <strong>Wednesday 9th:</strong>&nbsp;Spring time dance!<br /><br />
+              <strong>Wedneday 30th:</strong>&nbsp;End of the month dancebattle
+            </p>
+          </div>
         </div>
       </main>
 

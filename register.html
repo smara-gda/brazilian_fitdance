@@ -15,31 +15,13 @@
       type="image/x-icon"
     />
     <link rel="icon" href="../images/icons/favicon.ico" type="image/x-icon" />
-    <title>Contact</title>
+    <title>Register</title>
     <link href="../css/stylessheet.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
-    <script src="../jQueryAssets/jquery-ui-effects.custom.min.js"></script>
-    <script>
-      function MM_DW_effectShake(
-        obj,
-        method,
-        effect,
-        direction,
-        distance,
-        times,
-        speed,
-      ) {
-        obj[method](
-          effect,
-          { direction: direction, distance: distance, times: times },
-          speed,
-        );
-      }
-    </script>
+    <script src="../script/data.js" type="text/javascript"></script>
     <script src="../script/custom-nav.js" type="text/javascript"></script>
   </head>
   <body>
@@ -47,118 +29,131 @@
       <!--Logo on the left side of the header-->
       <header id="js-attach-nav">
         <!--Navigation menu-->
-        <nav>
-          <ul>
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="agenda.html">AGENDA</a></li>
-            <!-- <li><a href="events.html">EVENTS</a></li> -->
-            <li><a href="pricing.html">PRICING</a></li>
-            <li><a href="schedule.html">SCHEDULE</a></li>
-            <li><a href="media.html">MEDIA</a></li>
-            <li class="dropdown">
-              <a href="#" class="highlight-active"
-                >FITDANCE <i class="fas fa-caret-down"></i
-              ></a>
-              <ul class="dropdown-content">
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-                <li><a href="register.html">REGISTER</a></li>
-                <li><a href="about.html">THE TEACHER</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+        <nav id="js-attach-nav-items"></nav>
       </header>
       <main>
         <img
+          class="hero-image"
           src="../images/hero.png"
           alt="hero image Brazilian Fitdance"
-          class="hero-image"
         />
-        <!--Information about contactform-->
         <section>
+          <!--Information about register-->
           <div class="introduction-paragraph">
-            <h1>CONTACT</h1>
+            <h1>REGISTER</h1>
             <p>
-              Are you ready to attend a class but still have some questions?<br />
-              Feel free to contact and ask whatever you want!<br />
-              Fill in the contact form and we will contact you as soon as
-              possible.<br />
+              Ready to dance your butt off? Fill in your data to attend a lesson
             </p>
           </div>
         </section>
         <hr />
-        <!--Aside image-->
-        <aside class="image-aside-contact">
-          <img
-            src="../images/card-contact.png"
-            alt="image-contact-page"
-            width="650"
-            height="650"
-            onload="MM_DW_effectShake($(this),'effect','shake','left',20,100,200000)"
-          />
-        </aside>
-        <div class="contact-form">
-          <!--Contact form-->
+        <article class="register-form">
+          <!--Register form-->
+          <h2>Personal data</h2>
           <form method="post" action="https://formspree.io/f/mvolgovr">
-            <label for="fname-contact">Name</label><br />
+            <label for="fname-register">First name</label><br />
             <input
               type="text"
               class="register-text-area"
-              id="fname-contact"
-              name="contact-form-name"
+              id="fname-register"
+              name="register-fname"
               pattern="[A-zÀ-ž][A-zÀ-ž\s-]+"
               required="required"
             /><br />
-            <label for="phone-contact">Phonenumber</label><br />
+            <label for="lname-register">Last name</label><br />
+            <input
+              type="text"
+              class="register-text-area"
+              id="lname-register"
+              name="register-lname"
+              pattern="[A-zÀ-ž][A-zÀ-ž\s-]+"
+              required="required"
+            /><br />
+            <label for="bday-register">Birthday</label><br />
+            <input
+              type="date"
+              class="register-text-area"
+              id="bday-register"
+              name="register-bday"
+              required="required"
+            /><br />
+            <label for="adress-register">Streetname &amp; number</label><br />
+            <input
+              type="text"
+              class="register-text-area"
+              id="adress-register"
+              name="register-adress"
+              pattern="[A-zÀ-ž][A-zÀ-ž\s-]+ 0-9] {10}"
+              required="required"
+            /><br />
+            <label for="pcode-register">Postal code</label><br />
+            <input
+              type="text"
+              class="register-text-area"
+              id="pcode-register"
+              name="register-postal-code"
+              pattern="[0-9]{4}[a-zA-Z]{2}"
+              title="1234AB"
+              required="required"
+            /><br />
+            <label for="city-register">City</label><br />
+            <input
+              type="text"
+              class="register-text-area"
+              id="city-register"
+              name="register-city"
+              pattern="[A-zÀ-ž][A-zÀ-ž\s-]+"
+              required="required"
+            /><br />
+            <label for="pnum-register">Phonenumber</label><br />
             <input
               type="tel"
               class="register-text-area"
-              id="phone-contact"
-              name="contact-form-phone"
+              id="pnum-register"
+              name="register-phone"
               pattern="[0-9]{10}"
               required="required"
             /><br />
-            <label for="email-contact">Email</label><br />
+            <label for="email-register">Emailadress</label><br />
             <input
               type="email"
               class="register-text-area"
-              id="email-contact"
-              name="contact-form-email"
+              id="email-register"
+              name="register-email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"
+              title="example@myemail.com"
               required="required"
             /><br />
-            <label for="mess-contact">Message</label><br />
-            <textarea
+            <label for="package-register">Choose package</label><br />
+            <select
               class="register-text-area"
-              style="resize: none"
-              cols="30"
-              rows="6"
-              id="mess-contact"
-              name="contact-form-mess"
-              required="required"
-              placeholder="Type your text here..."
-            ></textarea
+              id="package-register"
+              name="register-package"
+            >
+              <option value="singleclass">Single class &euro;16,-</option>
+              <option value="60month">1 x per week &euro;60,-</option>
+              <option value="120month">2 x per week &euro;120,-</option></select
             ><br /><br />
+
             <!--CTA form buttons-->
-            <div class="contact-btn">
+            <div class="register-btn">
               <input
-                name="contact-form-send"
-                id="contact-form-send"
-                class="button-form"
-                value="SEND"
+                name="send"
                 type="submit"
+                class="button-form"
+                id="register-form-send"
+                value="SEND"
               />
               <input
-                name="contact-form-delete"
-                id="contact-form-delete"
+                name="delete"
+                id="register-form-reset"
                 class="button-form"
                 value="RESET"
                 type="reset"
               />
             </div>
           </form>
-        </div>
+        </article>
       </main>
 
       <!--Footer navigation-->

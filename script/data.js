@@ -11,7 +11,7 @@ const data = [
       { name: 'ABOUT', url: 'about.html' },
       { name: 'CONTACT', url: 'contact.html' },
       { name: 'REGISTER', url: 'register.html' },
-      { name: 'THE TEACHER', url: 'about.html' },
+      { name: 'THE TEACHER', url: 'teacher.html' },
     ],
   },
 ];
