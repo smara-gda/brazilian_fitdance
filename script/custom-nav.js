@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const nav = document.getElementById('js-attach-nav-items');
   hookElement.appendChild(buildlogoEl());
   nav.appendChild(buiildNavItems(data));
+  navLinkLocationActive();
 });
 
 function buildlogoEl() {
@@ -31,9 +32,10 @@ function buiildNavItems(data) {
   for (let key in data) {
     const li = document.createElement('li');
     const a = document.createElement('a');
+
+    li.classList.add('nav-conainer');
     a.innerText = data[key].name;
     a.href = data[key].url;
-    // a.classList.add('highlight-active');
     li.appendChild(a);
     ul.appendChild(li);
   }
@@ -45,12 +47,12 @@ function buiildNavItems(data) {
 
 function handleLastChildClasses(ul) {
   const lastLi = ul.lastChild;
-  lastLi.classList.add('dropdown');
-  const lastLiAncorTag = lastLi.querySelector('a');
   const i = document.createElement('i');
+  const lastLiAncorTag = lastLi.querySelector('a');
 
-  i.classList.add('fas', 'fa-caret-down');
+  lastLi.classList.add('dropdown');
   lastLiAncorTag.appendChild(i);
+  i.classList.add('fas', 'fa-caret-down');
 }
 function buildDropDownItems(data, mainUL) {
   const lastLi = mainUL.lastChild;
@@ -69,6 +71,12 @@ function buildDropDownItems(data, mainUL) {
     }
   }
 }
-// TODO add active class on click of links in header of the active page
-//
-//   add('highlight-active');
+
+function navLinkLocationActive() {
+  const navLinks = document.querySelectorAll('.nav-conainer a');
+  navLinks.forEach((link) => {
+    if (window.location.href === link.href) {
+      link.classList.add('highlight-active');
+    }
+  });
+}
