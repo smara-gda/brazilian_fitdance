@@ -15,44 +15,17 @@
       type="image/x-icon"
     />
     <link rel="icon" href="../images/icons/favicon.ico" type="image/x-icon" />
-    <title>Pricing</title>
     <link href="../css/stylessheet.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
-    <script src="../jQueryAssets/jquery-ui-effects.custom.min.js"></script>
-    <script>
-      function MM_DW_effectPulsate(obj, method, effect, mode, times, speed) {
-        obj[method](effect, { mode: mode, times: times }, speed);
-      }
-      function MM_preloadImages() {
-        //v3.0
-        var d = document;
-        if (d.images) {
-          if (!d.MM_p) d.MM_p = new Array();
-          var i,
-            j = d.MM_p.length,
-            a = MM_preloadImages.arguments;
-          for (i = 0; i < a.length; i++)
-            if (a[i].indexOf('#') != 0) {
-              d.MM_p[j] = new Image();
-              d.MM_p[j++].src = a[i];
-            }
-        }
-      }
-      function MM_goToURL() {
-        //v3.0
-        var i,
-          args = MM_goToURL.arguments;
-        document.MM_returnValue = false;
-        for (i = 0; i < args.length - 1; i += 2)
-          eval(args[i] + ".location='" + args[i + 1] + "'");
-      }
-    </script>
-    <script src="../script/data.js" type="text/javascript"></script>
-    <script src="../script/custom-nav.js" type="text/javascript"></script>
+    <script src="./jQueryAssets/jquery-1.11.1.min.js"></script>
+    <script src="./jQueryAssets/jquery-ui-effects.custom.min.js"></script>
+    <script src="./script/pricingEffect.js" type="text/javascript"></script>
+    <script src="./script/data.js" type="text/javascript"></script>
+    <script src="./script/custom-nav.js" type="text/javascript"></script>
+    <title>Pricing</title>
   </head>
   <body>
     <div class="wrapper">
@@ -105,7 +78,7 @@
             height="138"
             class="single"
             id="Image1"
-            onload="MM_DW_effectPulsate($(this),'effect','pulsate','hide',500,500000)"
+            onload="MM_DW_effectPulsate($(this),'effect','pulsate','hide', 400,500000)"
           />
         </div>
         <!--Photo group lesson-->

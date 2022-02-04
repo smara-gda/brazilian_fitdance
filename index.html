@@ -15,21 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
-    <script src="jQueryAssets/jquery-ui-effects.custom.min.js"></script>
-    <script>
-      function MM_DW_effectPuff(obj, method, effect, percent, speed) {
-        obj[method](effect, { percent: percent }, speed);
-      }
-      function MM_goToURL() {
-        //v3.0
-        var i,
-          args = MM_goToURL.arguments;
-        document.MM_returnValue = false;
-        for (i = 0; i < args.length - 1; i += 2)
-          eval(args[i] + ".location='" + args[i + 1] + "'");
-      }
-    </script>
+
     <script src="../script/data.js" type="text/javascript"></script>
     <script src="./script/custom-nav.js" type="text/javascript"></script>
   </head>
@@ -49,8 +35,8 @@
           alt="hero image Brazilian Fitdance"
           class="hero-image"
           id="Image1"
-          onload="MM_DW_effectPuff($(this),'toggle','puff',300,4000);MM_DW_effectPuff($(this),'show','puff',300,2000)"
         />
+
         <!--About Fitdance introduction-->
         <section>
           <h1 class="index-heading">
