@@ -21,3 +21,5 @@ const attributes = {
   height: '80',
   alt: 'logo Brazilian Fitdance',
 };
+
+export { data, attributes };
