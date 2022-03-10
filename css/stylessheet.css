@@ -2,6 +2,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 html {
@@ -11,16 +12,17 @@ html {
 }
 
 body {
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
+  max-width: 60em;
+
+  margin: 0 auto;
+  padding: 0 1em;
   font-family: adelle, arial, sans-serif;
-  background-color: #daeee3;
+  background-color: #f4faf6;
   color: #8c3683;
 }
 
 .wrapper {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   overflow: auto;
   position: relative;
   min-height: 100%;
@@ -29,7 +31,11 @@ body {
 main {
   padding-bottom: 2.5rem;
 }
-
+hr {
+  border-color: #8cceaa;
+  border-style: solid;
+  width: 100%;
+}
 /*MAIN Styling*/
 /*Header styling*/
 header {
@@ -161,14 +167,14 @@ h1 {
 
 /*Styling bullet points & image card on Index page*/
 .intro-section-wrapper {
-  max-width: 40%;
+  max-width: 50%;
   padding: 0 2em 0 2em;
 }
 
 .intro-section-description {
   width: 80%;
-  text-align: justify;
-  font-size: 22px;
+  /* text-align: start; */
+  font-size: 16px;
 }
 
 .intro-section {
@@ -197,9 +203,7 @@ hr {
 /* AGENDA PAGE */
 /* Styling margin agenda information */
 .agenda {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 /*EVENT PAGE*/
@@ -241,11 +245,11 @@ hr {
 }
 /*PRICING PAGE*/
 /*Styling article on the Pricing page*/
-.pricing {
+/* .pricing {
   margin-left: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
-}
+} */
 
 /*Styling image Single Class pricing*/
 .single {
@@ -269,8 +273,14 @@ hr {
 Styling margin timetable */
 .timetable {
   margin-top: 40px;
-  margin-left: 20px;
+
   margin-bottom: 100px;
+}
+.timetable-paragraph {
+  width: 40%;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 /*Styling for the map on the Schedule page*/
@@ -317,14 +327,14 @@ Styling margin timetable */
 
 /*CONTACT PAGE*/
 /*Styling image Contact page*/
-.image-aside-contact {
+/* aside .image-aside-contact {
   float: right;
   margin-right: 50px;
   border-style: solid;
   border-radius: 20px;
   border-color: #daeee3;
   margin-bottom: 30px;
-}
+} */
 
 /*Styling form Contact page*/
 .contact-form {
@@ -333,7 +343,6 @@ Styling margin timetable */
   font-weight: bold;
   text-align: left;
   font-size: large;
-  margin-top: 100px;
 }
 
 /*REGISTER PAGE*/
@@ -468,7 +477,6 @@ footer .privacy-policy {
   border-radius: 5px;
   margin-left: 10px;
   padding: 1%;
-  /*    margin-left: 50px;*/
 }
 
 /*Styling buttons for the pages Register & Contact*/
@@ -499,6 +507,7 @@ footer .privacy-policy {
 .contact-btn {
   margin-bottom: 20px;
   margin-top: 40px;
+  padding-bottom: 20px;
   display: inline-block;
   transition: box-shadow 0.5s;
 }
@@ -510,8 +519,8 @@ footer .privacy-policy {
 
 /*Margin adjustment CTA-buttons for the Index, Pricing, Schedule, Contact & Register pages*/
 .index-btn {
-  margin-top: 58px;
-  margin-left: 320px;
+  margin-top: 1em;
+  margin-left: 1.5em;
   transition: box-shadow 0.5s;
   margin-bottom: 150px;
 }
@@ -521,7 +530,6 @@ footer .privacy-policy {
   box-shadow: 0 0 11px rgba(33, 33, 33, 2);
 }
 .pricing-btn {
-  margin-left: 15px;
   margin-top: 90px;
   margin-bottom: 100px;
   transition: box-shadow;
@@ -533,10 +541,8 @@ footer .privacy-policy {
 }
 
 .schedule-btn {
-  margin-top: 20px;
+  margin-top: -20px;
   margin-bottom: 150px;
-  margin-left: 10px;
-  display: block;
   transition: box-shadow 0.5s;
 }
 
@@ -556,12 +562,13 @@ footer .privacy-policy {
 
 /*Styling for the paragraph for the Agenda, Events, Pricing, Schedule, Media, Register, Contact & About pages */
 .introduction-paragraph {
-  margin-left: 20px;
   display: inline-block;
   overflow: hidden;
   margin-top: -30px;
 }
-
+.introduction-paragraph p {
+  text-align: justify;
+}
 /*Styiling Index page for public directories*/
 .error {
   text-align: center;
