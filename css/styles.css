@@ -22,9 +22,6 @@ body {
   margin: 0 auto;
 }
 @media (max-width: 800px) {
-  body {
-    background-color: #87ceeb;
-  }
   .background-img {
     width: 100%;
     height: 100vh;
